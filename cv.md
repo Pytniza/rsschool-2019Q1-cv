@@ -11,3 +11,13 @@ I am an aspiring front-end web developer. Now I am a 1st year student of the Bel
 - HTML5, CSS3, JavaScript
 - Adobe Photoshop
 - Git
+
+## Portfolio
+Ghost: [link](https://pytniza.github.io/psd-site/), [code](https://github.com/Pytniza/psd-site)
+
+## Experience
+I participated in set 2018Q3 RS School up to 3 stages
+
+## Education
+- BSUIR(2018-now)
+- RS School (Autumn 2018)
