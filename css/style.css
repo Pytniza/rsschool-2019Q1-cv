@@ -1,0 +1,110 @@
+html {
+    background: #607D8B;
+    
+}
+
+body {
+    max-width: 1024px;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+
+    text-align: center;
+
+    background: rgba(25,25,26,0.8);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+header a {
+    font-size: 25px;
+
+    color: #ECF0F1;
+}
+
+header a:hover {
+    color: #607D8B;
+    border-top: #ECF0F1 solid 2px;
+    border-bottom: #ECF0F1 solid 2px;
+}
+
+.presentation {
+    position: relative;
+
+    height: 600px;
+
+    color: #ECF0F1;
+    background: #151515 url("../img/presentation-bg.svg");
+    background-size: cover;
+}
+
+.wrapper-presentation {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.presentation:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 20vh;
+
+    content: "";
+
+    background: linear-gradient(to top, rgba(25,25,26,1) 0%,rgba(25,25,26,1) 14%,rgba(25,25,26,0.5) 52%,rgba(25,25,26,0.3) 69%,rgba(25,25,26,0) 100%);
+}
+
+.presentation img {
+    margin-top: 80px;
+
+    border: #e0dede solid 4px;
+    border-radius: 50%;
+}
+
+.presentation h1 {
+    font-size: 30px;
+
+    color: #F1C40F;
+}
+
+.about {
+    height: 400px;
+    text-align: center;
+
+    color: #ECF0F1;
+    background: #19191A;
+}
+
+
+h2 {
+    font-size: 35px;
+
+    margin: 0 auto;
+    padding-top: 100px;
+
+    color: #F1C40F;
+}
+
+.about p {
+    width: 50%;
+    margin: 20px auto;
+}
