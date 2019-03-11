@@ -74,18 +74,18 @@ header a:hover {
 }
 
 .about {
-    height: 600px;
+    height: 500px;
     text-align: center;
 
     color: #E1E1E1;
     background: #19191A;
+    padding: 150px 0;
 }
 
 
 .about h2 {
     font-size: 35px;
     margin: 0 auto;
-    padding-top: 100px;
 
     color: #8896B9;
 }
@@ -101,7 +101,7 @@ header a:hover {
     position: relative;
 
     padding: 150px 0;
-    height: 600px;
+    height: 500px;
 
     color: #ffffff;
     background: #E1E1E1;
@@ -146,7 +146,8 @@ header a:hover {
 }
 
 .skills {
-    height: 600px;
+    height: 500px;
+    padding: 100px 0;
 }
 
 .skills h2 {
@@ -173,9 +174,30 @@ header a:hover {
     color: #13234B;
     text-align: left;
     background: #8896B9;
-    margin: 15px 0;
+    margin: 10px 0;
     display: flex;
     justify-content: space-between;
     font-size: 25px;
-    padding: 30px;
+    padding: 20px;
+}
+
+.portfolio {
+    height: 500px;
+    background: #E1E1E1;
+    padding: 100px 0;
+    color: #13234B
+}
+
+.portfolio h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.portfolio ul{
+    padding: 0;    
+}
+
+.portfolio-1 {
+    margin: 0 auto;
+    text-align: center;
 }
