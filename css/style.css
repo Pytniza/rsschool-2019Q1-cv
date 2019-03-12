@@ -17,7 +17,7 @@ a:hover , a {
 }
 
 header{
-    background: #ffffff;
+    background: #13234B;
 }
 
 header ul {
@@ -45,7 +45,7 @@ header a:hover {
 .presentation {
     display: flex;
 
-    background: #E1E1E1;
+    background: rgb(245, 245, 245);
 
     color: #182153;
 }
@@ -65,6 +65,7 @@ header a:hover {
 }
 
 .contact-items {
+    font-size: 25px;
     margin: 50px 0;
     font-weight: 700;
 }
@@ -78,7 +79,7 @@ header a:hover {
     text-align: center;
 
     color: #E1E1E1;
-    background: #19191A;
+    background: #353F56;
     padding: 150px 0;
 }
 
@@ -148,6 +149,7 @@ header a:hover {
 .skills {
     height: 500px;
     padding: 100px 0;
+    background: #353F56;
 }
 
 .skills h2 {
@@ -201,3 +203,39 @@ header a:hover {
     margin: 0 auto;
     text-align: center;
 }
+
+footer{
+    background: #13234B;
+    padding-top: 50px;
+}
+
+footer h2{
+    font-size: 35px;
+    color: #8896B9;
+    text-align: center;
+}
+
+
+.wrapper-footer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contact-items {
+    margin: 5px 0;
+    font-weight: 700;
+    color: #8896B9
+}
+
+.icons {
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.icons li:hover {
+    filter: invert(1);
+}
+
